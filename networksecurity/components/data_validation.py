@@ -19,7 +19,7 @@ class DataValidation:
         except Exception as e:
             raise NetworkSecurityException(e,sys)
         
-    @staticmethod
+    @staticmethod 
     def read_data(file_path)->pd.DataFrame:
         try:
             return pd.read_csv(file_path)
