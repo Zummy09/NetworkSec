@@ -30,8 +30,8 @@ import dagshub
 dagshub.init(repo_owner='sumit140809', repo_name='NetworkSec', mlflow=True)
 
 os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/sumit140809/NetworkSec.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"]="krishnaik06"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="7104284f1bb44ece21e0e2adb4e36a250ae3251f"
+os.environ["MLFLOW_TRACKING_USERNAME"]="sumit140809"
+os.environ["MLFLOW_TRACKING_PASSWORD"]="38ac1dc60fc98737ebdf6ee7cca2807b3357cd27"
 
 
 
